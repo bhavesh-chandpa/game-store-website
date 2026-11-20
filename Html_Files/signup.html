@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Games Store </title>
+    <link rel="stylesheet" type="text/css" href="../Css_Files/main.css">
+    <link rel="stylesheet" type="text/css" href="../Css_Files/signup.css">
+    <script src="../JavaScript_Files/signup.js"></script>
+    <link rel="stylesheet" type="text/css" href="../Css_Files/store.css">
+</head>
+<body>
+    <div class="leftmenu">
+        <a href="home.html" class="logodiv">
+            <img src="../Images/game.png" id="logo" alt="Games Store logo">
+            <h2 class="webname"> Games Store </h2>
+        </a>
+        <a href="home.html" class="menudivs homeb">
+            <p class="menutext hc"> Home </p>
+        </a>
+        <a href="offers.html" class="menudivs offersb">
+            <p class="menutext"> Offers </p>
+        </a>
+        <a href="about.html" class="menudivs aboutb">
+            <p class="menutext"> About Us </p>
+        </a>
+        <a href="contact.html" class="menudivs contactb">
+            <p class="menutext"> Contact Us </p>
+        </a>
+    </div>
+
+    <div class="topdiv">
+        <div class="srchdiv">
+            <input type="search" placeholder="Search Store" class="srch">
+        </div>
+        <div class="logsigdiv">
+            <a href="login.html" class="lsbtn">
+                <p class="lstext"> Login </p>
+            </a>
+            <a href="signup.html" class="lsbtn sb">
+                <p class="lstext st"> Sign Up </p>
+            </a>
+        </div>
+    </div>
+    <div class="maindiv">
+        <div class="signupcontainer">
+            <h1 class="signuptxt"> Sign Up </h1>
+            <label for="email" class="text"> Email Address </label>
+            <input id="email" type="text" name="email" class="box">
+            <span id="email-error" class="error"></span>
+
+            <div class="lbls">
+                <label for="firstname" class="text"> First Name </label>
+                <label for="lasttname" class="text"> Last Name </label>
+            </div>
+            <div class="inpts">
+                <input id="firstname" name="firstname" class="flinpt">
+                <input id="lastname" name="lastname" class="flinpt">
+            </div>
+            <span id="names-error" class="error"></span>
+
+            <label for="password" class="text"> Password </label>
+            <input id="password" type="password" name="password" class="box">
+            <span id="password-error" class="error"></span>
+
+            <label for="number" class="text"> Mobile Number </label>
+            <input id="number" type="text" name="number" class="box">
+            <span id="number-error" class="error"></span>
+
+            <input type="button" value="Sign Up" class="subtn" onClick="return validate()">
+            <p class="actext"> Already have an account? 
+                <a href="login.html" class="loginlink"> Sign in </a>
+            </p>
+        </div>
+    </div>
+    <script src="../JavaScript_Files/store.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    overflow-x: hidden;
+}
+
+p.newt { 
+    color:white; transform:scale(1.2);
+}
+
+div.maindiv {
+    display:grid;
+    row-gap:1%;
+}
+
+a.nwsbox {
+    width:98%;
+    border:1px solid rgb(80,80,80);
+    border-radius:15px;
+    padding:1.5%;
+    display:grid;
+    grid-template-columns:30% 65%;
+    grid-template-rows:max-content 60%;
+    gap:2%;
+    color:white;
+    background-color:rgb(19,19,19);
+    transition:background-color,scale 0.1s linear 0s;
+}
+
+a.nwsbox:hover {
+    scale:1.014;
+    background-color:rgb(25,25,25);
+}
+
+img.nwsimg {
+    width:100%;
+    grid-area:1/1/3/2;
+    border-radius:10px;
+    animation : nwsimg 1s linear 0s 1;
+}
+
+@keyframes nwsimg {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+p.nwshtxt {
+    grid-area:1/2/2/3;
+    font-family:fantasy;
+    font-size:180%;
+    animation:nwstxt 0.6s ease-out 0s 1;
+}
+
+@keyframes nwstxt {
+    0% {
+        transform:translateX(40%);
+        opacity:0;
+    }
+    100% {
+        transform:translateX(0%);
+        opacity:1;
+    }
+}
+
+p.nwsdcp {
+    grid-area: 2/2/3/3;
+    color:rgb(200,200,200);
+    animation:nwsdcp 1s ease-out 0s 1;
+}
+
+@keyframes nwsdcp {
+    0% {
+        transform:translateX(60%);
+        opacity:0;
+    }
+    100% {
+        transform:translateX(0%);
+        opacity:1;
+    }
+}

@@ -1,0 +1,68 @@
+a.offersb { 
+    background-color:rgb(60,60,60);
+}
+
+p.oc {
+    color:white; 
+}
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 24px;
+}
+
+p.gameshl {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 19%;
+    height: 46vh;
+    border-radius: 20px;
+    transition: all 150ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition:background-color,scale 0.1s linear 0s;
+}
+
+.card img {
+    border-radius: 20px;
+    width: 100%;
+    height: 80%;
+}
+
+.card:hover{
+    scale:1.05;
+}
+
+p.nog {
+    color:white;
+    font-weight:bold;
+    margin-left:5%;
+}
+
+p.gprice {
+    color:floralwhite;
+    margin-left:5%;
+}

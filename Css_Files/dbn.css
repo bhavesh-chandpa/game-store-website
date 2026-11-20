@@ -1,0 +1,27 @@
+a.homeb { 
+    background-color:rgb(60,60,60); 
+}
+
+p.hc { 
+    color:white;
+}
+
+div.topdiv { 
+    gap:0%; 
+}
+
+div.threedbn { 
+    width:35.4%; 
+    display:flex;
+    justify-content:space-evenly; 
+} 
+
+p.dbnt { 
+    color:rgb(150,150,150);
+    transition:color,transform 0.1s linear 0s;
+}
+
+p.dbnt:hover {
+    color:white;
+    transform:scale(1.2);
+}

@@ -1,0 +1,42 @@
+a.aboutb { 
+     background-color:rgb(60,60,60); 
+}
+html{
+     font: inherit;
+}
+p.ac { 
+     color:white;
+}
+.container{
+     width: 86%;
+     padding-top: 70px;
+     margin: 0 auto;
+     justify-content: center;
+     color: white;
+     align-items: center;
+     display: grid;
+     gap: 15px;
+     text-align: center;
+}
+.content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(19, 19, 19);
+     padding: 50px;
+     border-radius: 8px;
+     border: 1px solid rgb(75, 82, 92);
+     transition: 150ms ease-in-out;
+}
+h2 a{
+     color: white;
+}
+.img{
+     width: 200px;
+}
+.content{
+     box-shadow: 0 0 1px 1px, 0 0 1px 1px inset;
+}
+.content:hover{
+     transform: scale(1.05);  
+}
