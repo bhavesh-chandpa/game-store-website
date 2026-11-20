@@ -13,6 +13,23 @@ A multi-page gaming storefront developed using **HTML, CSS, and JavaScript**. Th
 - **Gaming News:** Browse gaming-related updates.
 - **Local Storage:** Cart and wishlist data persist in the browser.
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](Screenshots/home.png)
+
+### 🎮 Browse Games
+![Browse Games](Screenshots/browse.png)
+
+### 🕹️ Game Details
+![Game Details](Screenshots/game-details.png)
+
+### 🛒 Shopping Cart
+![Shopping Cart](Screenshots/cart.png)
+
+### ❤️ Wishlist
+![Wishlist](Screenshots/wishlist.png)
+
 ## 🛠️ Technologies Used
 
 - HTML5
