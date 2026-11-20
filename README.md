@@ -33,7 +33,7 @@ A multi-page gaming storefront developed using **HTML, CSS, and JavaScript**. Th
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/bhavesh-chandpa/Game-Store-Web
+   git clone https://github.com/bhavesh-chandpa/game-store-website
    ```
 
 2. Open the project folder in Visual Studio Code.
